@@ -1,57 +1,201 @@
 body {
-    background-color: #e8c09f; 
-    font-family: Arial, sans-serif; /* Шрифт для текста */
-    padding: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: rgb(53, 53, 53);
 }
 
-h1, h2 {
-    color: #333; 
-    font-size: 25px;
-    margin-bottom: 11px;
-}
-
-p {
-    color: #4a4a4a; 
-    font-size: 15px;
-    margin-bottom: 14px;
-}
-
-ul, ol {
-    margin-left: 20px;
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
-    color: #1e90ff;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline; /* Подчеркивание при наведении */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: bisque;
+    border: 1px;
+    border-radius: 50px;
+    margin-inline-start: 70px;
+    margin-right: 72px;
 }
 
+.header > a {
+    padding: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
 
 .content {
-    display: flex; 
-    justify-content: space-between; 
-    margin: 20px auto; 
-    width: 80%; 
+    display: flex;
+    justify-content: space-between;
+    margin: 3.5rem;
 }
 
 .content-left {
-    background-color: #fff; 
-    padding: 20px; 
-    width: 60%; 
-    margin-right: 20px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 2;
+    background-color:bisque;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding-right: 50px;
+    margin: 20px;
 }
 
 .content-right {
-    background-color: #fff;
-    padding: 20px;
-    width: 35%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    border: 2px solid rgb(36, 36, 36);
+    border-radius: 40px;
+    margin: 20px;
 }
 
-.cat {
-    width: 100%;
-    height: auto; 
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning {
+    display: flex;
+    justify-content: center;
+    color: red;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.movies, .series, .myself, .connect{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.ul-ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 30px;
+}
+
+.myself-text { 
+    font-size: 1.2rem;
+}
+
+.cat { 
+    width: 700px;
+    margin: 100px;
+    border: 2px solid;
+    border-radius: 40px;
+}
+
+.page-text {
+    padding-block: 70px;
+    color: rgb(238, 197, 163);
+}
+
+.container {
+    display: block;
+    background-color: beige;
+}
+
+.container > img{
+    width: 200px;
+    margin: 0px auto;
+}
+
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    margin: 0px auto;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 600px;
+    
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: beige;
+    border: 3px solid rgb(219, 91, 51);
+}
+
+.block-3 {
+    margin: 10px;
+    border: 2px solid rgb(190, 50, 50);
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+}
+
+.container-4 {
+    background-color: beige;
+    border: 3px solid rgb(0, 0, 0);
+    height: 900px;
+}
+
+.block-41, .block-42, .block-43 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.block-41 {
+    position: relative;
+    left: 25px;
+    top: 100px;
+    border-style: solid;
+    border-color:red;
+}
+
+.block-42 {
+    left: 150px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.block-43 {
+    left: 275px;
+    bottom: 100px;
+    border-style: solid;
+    border-color:green;
+}
+
+.smart-cat {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
 }
