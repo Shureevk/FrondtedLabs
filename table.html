@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+
+    <div class="header">
+        <a href="index.html">ОСНОВНАЯ СТРАНИЦА</a>
+        <a href="page.html">ПОЗИЦИОНИРОВАНИЕ ЭЛЕМЕНТОВ</a>
+        <a href="table.html">ТАБЛИЦА</a>
+    </div>
+    
+    <div class="content">
+
+        <table>
+    
+            <caption>Братки</caption>
+    
+            <tr>
+                <th>№</th>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Пол</th>
+                <th>Направление</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td>Александр</td>
+                <td>Милёхин</td>
+                <td>Мужской</td>
+                <td>ИБАС</td>
+            </tr>
+    
+            <tr> 
+                <td>2</td>
+                <td>Андрей</td>
+                <td>Жестков</td>
+                <td>Мужской</td>
+                <td>ИБАС</td>
+            </tr>
+    
+            <tr>
+                <td>3</td>
+                <td>Андрей</td>
+                <td>Панакшин</td>
+                <td>Мужской</td>
+                <td>ИБАС</td>
+            <tr>
+                <td>4</td>
+                <td>Андрей</td>
+                <td>Преображенский</td>
+                <td>Мужской</td>
+                <td>ИБАС</td>
+            <tr>
+                <td>5</td>
+                <td>Илья</td>
+                <td>Савельев</td>
+                <td>Мужской</td>
+                <td>ИБАС</td>
+            </tr>
+    
+            <tr>
+                <td>6</td>
+                <td>Касым</td>
+                <td>Шуреев</td>
+                <td>Мужской</td>
+                <td>ИБАС</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>Иван</td>
+                <td>Делибалтов</td>
+                <td>Мужской</td>
+                <td>ИБАС</td>
+            </tr>
+    
+            <tr>
+                <td>8</td>
+                <td>Тимур</td>
+                <td>Абдулханов</td>
+                <td>Мужской</td>
+                <td>ИБАС</td>
+            </tr>
+    
+            <tr>
+                <td>9</td>
+                <td>Дмитрий</td>
+                <td>Чекулаев</td>
+                <td>Мужской</td>
+                <td>ИБАС</td>
+            </tr>
+    
+        </table>
+
+        <div class="form-container">
+            <form class="table-form">
+    
+                <div>
+                    <label for="fname">Имя:</label>
+                    <input class="fname" type="text" id="fname" name="fname" placeholder="Введите имя">
+                </div>
+    
+                <div class="name">
+                    <label for="lname">Фамилия:</label>
+                    <input class="lname" type="text" id="lname" name="lname" placeholder="Введите фамилию">
+                </div>
+    
+                <div class="gender">
+                    <label>Пол:</label><br>
+                    <div class="radio-gender">
+                        <input type="radio" name="gender" value="Мужской" id="Мужской">
+                        <label class="male" for="Мужской">Мужской</label><br>
+                        <input type="radio" name="gender" value="Женский" id="Женский">
+                        <label for="Женский">Женский</label>  
+                    </div> 
+                </div>
+    
+                <div class="speciality">
+                    <label for="speciality">Специальность:</label>
+                    <select class="select" name="speciality" id="speciality">
+                        <option value="IBAS">ИБАС</option>
+                        <option value="FIIT">ФИИТ</option>
+                        <option value="PMI">ПМИ</option>
+                        <option value="PMF">ПМФ</option>
+                    </select>
+                </div>
+
+                <button type="submit">ДОБАВИТЬ</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    
+    
+</body>
+</html>
